@@ -24,15 +24,36 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App .addTask input{
+  width: 70%;
+  height: 4vw;
+  background-color: rgb(197, 216, 209);
+  border-radius: 2vw;
+  border: none;
+  font-size: 2vw;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .addTask button{
+  margin: 3vw;
+  font-size: 2vw;
+  padding: 1vw;
+  border-radius: 2vw;
+  height: 4vw;
+  border: none;
+  font-weight: 700;
+  background-color: rgb(125, 145, 138);
+}
+.task{
+  display: inline-block;
+  padding: 5vw;
+  margin: 1vw;
+}
+.task h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3vw;
+}
+.task button{
+  padding: 1vw;
+  margin: 1vw;
+  font-size: 2vw;
+  border-radius: 1vw;
 }
